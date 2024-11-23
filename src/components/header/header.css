@@ -1,0 +1,33 @@
+.header {
+    flex: 1;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+}
+
+.header_item {
+    cursor: pointer;
+    margin: 10px;
+    font-size: large;
+    width: max-content;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+
+.header_item:hover {
+    scale: 1.02;
+    background-color: var(--color-third);
+    color: var(--color-black);
+}
+
+.header_item.active {
+    background-color: var(--color-yellow);
+    color: var(--color-secondary);
+}
+
+.header_item:active {
+    scale: 0.98;
+}

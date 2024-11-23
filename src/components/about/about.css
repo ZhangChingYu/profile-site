@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_title {
+    margin: 0 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about_title p {
+    margin: 0 4px;
+    font-size: 70px;
+}
+
+.about_title div {
+    flex: 1;
+    height: 4px;
+    margin-right: 10px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--color-bg), var(--color-white));
+}
