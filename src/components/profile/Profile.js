@@ -1,6 +1,7 @@
 import React from "react";
 import "./profile.css";
 import image from '../../assets/logo512.png';
+import PropTypes from 'prop-types';
 
 const Profile = () => {
     const profileItems = ["aaa", "bbb", "ccc", "ddd", "eee"];
@@ -32,5 +33,9 @@ const Profile = () => {
         </div>
     )
 }
+
+Profile.propTypes = {
+    name: PropTypes.string.isRequired, // `name` 是一個必填的字符串
+};
 
 export default Profile;
