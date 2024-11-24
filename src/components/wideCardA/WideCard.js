@@ -14,16 +14,16 @@ const WideCard = () => {
                     <p className="wide_card_title">Silvia Chang</p>
                     <div className="wide_card_circles">
                         {colors.map((item, id) => (
-                            <div className={"wide_card_circle_"+id} style={{left:`${(4-id)*20}px`, background:`linear-gradient(90deg, ${item}, ${id+1===5?"var(--color-yellow)":colors[id+1]})`}}></div>
+                            <div key={"wide_card_circle_"+id} className={"wide_card_circle"} style={{left:`${(4-id)*20}px`, background:`linear-gradient(90deg, ${item}, ${id+1===5?"var(--color-yellow)":colors[id+1]})`}}></div>
                         ))}
                     </div>
                 </div>
                 <p className="wide_card_subtitle">Silvia Chang</p>
                 <p className="wide_card_content">
-                Hello! I'm ChatGPT, your AI assistant developed by OpenAI. I specialize in helping with a wide range of topics, 
+                Hello! I&#39;m ChatGPT, your AI assistant developed by OpenAI. I specialize in helping with a wide range of topics, 
                 from programming and tech troubleshooting to creative writing and career advice. Whether you need guidance on a 
-                challenging project, want to brainstorm ideas, or just need help learning something new, I'm here to assist you. 
-                Feel free to ask me anything—I'll do my best to provide clear and helpful responses. 😊
+                challenging project, want to brainstorm ideas, or just need help learning something new, I&#39;m here to assist you. 
+                Feel free to ask me anything—I&#39;ll do my best to provide clear and helpful responses. 😊
                 </p>
             </div>
         </div>
