@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import { Header, Sidebar, Profile, About, WideCardA } from "../../components";
+import { Header, Sidebar, Profile, About, WideCardA, WideCardB } from "../../components";
 
 const Home = () => {
     return(
@@ -13,6 +13,10 @@ const Home = () => {
                         <Profile />
                         <About />
                         <div className="card_container">
+                            <WideCardA />
+                            <WideCardB />
+                            <WideCardB />
+                            <WideCardA />
                             <WideCardA />
                         </div>
                     </div>
