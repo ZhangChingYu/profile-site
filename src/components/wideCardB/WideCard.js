@@ -31,6 +31,7 @@ const WideCardB = () => {
         // Cleanup interval on component unmount
         return () => clearInterval(intervalId);
     }, []);
+    
     return(
         <div className="wide_card">
             <div className="test_container">
