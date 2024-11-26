@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./wideCardB.css";
-import vedio from '../../assets/flame.mp4';
+import flame_video from '../../assets/flame.mp4';
 // <video autoPlay loop muted src={vedio} itemType="video/mp4" />
 
 const WideCardB = () => {
@@ -31,12 +31,12 @@ const WideCardB = () => {
         // Cleanup interval on component unmount
         return () => clearInterval(intervalId);
     }, []);
-    
+
     return(
         <div className="wide_card">
             <div className="test_container">
                 <div className="layer_1">
-                    <video autoPlay loop muted src={vedio} itemType="video/mp4" />
+                    <video autoPlay loop muted src={flame_video} />
                 </div>
                 <div className="layer_2">
                     <div className="wide_card_B_tool"></div>
