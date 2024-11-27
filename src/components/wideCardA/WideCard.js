@@ -1,6 +1,6 @@
 import React from "react";
 import "./wideCardA.css";
-import image from "../../assets/logo512.png";
+import image from "../../assets/avatar2.jpeg";
 
 const WideCard = () => {
     const colors = ["var(--color-secondary)", "#5E5B61", "#858181", "#ADA8A2", "#D4CEC2"]

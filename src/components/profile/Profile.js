@@ -1,6 +1,6 @@
 import React from "react";
 import "./profile.css";
-import image from '../../assets/logo512.png';
+import image from '../../assets/avatar2square.jpeg';
 import PropTypes from 'prop-types';
 
 const Profile = () => {

@@ -1,0 +1,82 @@
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+.background_title {
+    font-size: 70px;
+    margin-left: 20px;
+    cursor: default;
+}
+
+.background_content {
+    width: 90%;
+    margin-left: 20px;
+    cursor: default;
+    justify-content: center;
+}
+
+.background_items {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background_item {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.background_item_text {
+    font-size: 24px;
+    cursor: default;
+}
+
+.background_item_bar {
+    margin-left: 20px;
+    height: 40px;
+    max-width: 500px;
+    width: 90%;
+    background: linear-gradient(90deg, var(--color-blue-dark), var(--color-secondary));
+    border-radius: 20px;
+}
+
+.background_item_bar_child {
+    height: 40px;
+    width: 70%;
+    background: linear-gradient(90deg, var(--color-yellow) 70%, rgba(249, 242, 224, 0.01) );
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.background_buttons {
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.background_button {
+    height: 40px;
+    flex: 1;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.background_buttom {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-white),var(--color-bg),  var(--color-white));
+    border-radius: 2px;
+}
