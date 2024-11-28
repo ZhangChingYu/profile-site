@@ -1,0 +1,45 @@
+.elements {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.element {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+.element_icon_border {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, var(--color-yellow), var(--color-red));
+    border-radius: 40px;
+}
+
+.element_icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element_icon img {
+    height: 70%
+}
+
+.element_text {
+    font-size: 30px;
+    cursor: default;
+}
