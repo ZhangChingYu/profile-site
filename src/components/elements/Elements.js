@@ -10,7 +10,7 @@ const Elements = () => {
     return(
         <div className="elements">
             <div className="element">
-                <div className="element_icon_border">
+                <div className="element_icon_border" style={{background:"linear-gradient(45deg, var(--color-yellow), var(--color-red))"}}>
                     <div className="element_icon">
                         <img src={fire} alt="fire"/>
                     </div>
@@ -18,7 +18,7 @@ const Elements = () => {
                 <div className="element_text">FIRE</div>
             </div>
             <div className="element">
-                <div className="element_icon_border">
+                <div className="element_icon_border" style={{background:"linear-gradient(45deg, var(--color-yellow), var(--color-blue-light))"}}>
                     <div className="element_icon">
                         <img src={water} alt="water"/>
                     </div>
@@ -26,7 +26,7 @@ const Elements = () => {
                 <div className="element_text">WATER</div>
             </div>
             <div className="element">
-                <div className="element_icon_border">
+                <div className="element_icon_border" style={{background:"linear-gradient(-45deg, var(--color-yellow), var(--color-blue-light))"}}>
                     <div className="element_icon">
                         <img src={earth} alt="earth"/>
                     </div>
@@ -34,7 +34,7 @@ const Elements = () => {
                 <div className="element_text">EARTH</div>
             </div>
             <div className="element">
-                <div className="element_icon_border">
+                <div className="element_icon_border" style={{background:"linear-gradient(45deg, var(--color-red), var(--color-yellow), var(--color-blue-light))"}}>
                     <div className="element_icon">
                         <img src={flora} alt="flora"/>
                     </div>
@@ -42,7 +42,7 @@ const Elements = () => {
                 <div className="element_text">FLORA</div>
             </div>
             <div className="element">
-                <div className="element_icon_border">
+                <div className="element_icon_border" style={{background:"linear-gradient(-45deg, var(--color-yellow), var(--color-red))"}}>
                     <div className="element_icon">
                         <img src={mind} alt="mind"/>
                     </div>
