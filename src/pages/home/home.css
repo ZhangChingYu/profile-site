@@ -7,6 +7,7 @@
   }
 
 .home {
+    overflow: scroll;
     display:flex;
     flex-direction: row;
     align-items:flex-start;
@@ -14,7 +15,8 @@
 }
 
 .home_body {
-    margin-left: 66px;
+    position: absolute;
+    left: 66px;
     display: flex;
     flex-direction: column;
     flex: 1;

@@ -17,11 +17,11 @@ const Profile = () => {
     return(
         <div className="profile">
             <div className="profile_header">
-                <div className="profile_pic_icon"/>
+                <div className="profile_pic_icon"></div>
                 <div className="profile_pic_border">
                     <div className="profile_pic_holder">
                         <img src={image} alt={"profile"}/>
-                    </div>
+                    </div> 
                 </div>
                 <p className="profile_header_a">24</p>
             </div>
@@ -35,7 +35,7 @@ const Profile = () => {
 }
 
 Profile.propTypes = {
-    name: PropTypes.string.isRequired, // `name` 是一個必填的字符串
+    name: PropTypes.string.isRequired
 };
 
 export default Profile;

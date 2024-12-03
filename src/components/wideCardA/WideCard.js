@@ -20,12 +20,14 @@ const WideCard = () => {
                         </div>
                     </div>
                     <p className="wide_card_subtitle">Silvia Chang</p>
-                    <p className="wide_card_content">
-                    Hello! I&#39;m ChatGPT, your AI assistant developed by OpenAI. I specialize in helping with a wide range of topics, 
-                    from programming and tech troubleshooting to creative writing and career advice. Whether you need guidance on a 
-                    challenging project, want to brainstorm ideas, or just need help learning something new, I&#39;m here to assist you. 
-                    Feel free to ask me anything I&#39;ll do my best to provide clear and helpful responses. 😊
-                    </p>
+                    <div className="wide_card_content">
+                        <p>
+                            Hello! I&#39;m ChatGPT, your AI assistant developed by OpenAI. I specialize in helping with a wide range of topics, 
+                            from programming and tech troubleshooting to creative writing and career advice. Whether you need guidance on a 
+                            challenging project, want to brainstorm ideas, or just need help learning something new, I&#39;m here to assist you. 
+                            Feel free to ask me anything I&#39;ll do my best to provide clear and helpful responses. 😊
+                        </p>
+                    </div>
                 </div>
             </div>
             

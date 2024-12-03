@@ -5,7 +5,7 @@ import { Header, Sidebar, Profile, About, WideCardA, WideCardB, Background, Elem
 const Home = () => {
     return(
         <div className="home">
-            <Sidebar />
+            
             <div className="home_body">
                 <Header />
                 <div className="home_body_">
@@ -24,7 +24,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
+            <Sidebar />
         </div>
     )
 }
