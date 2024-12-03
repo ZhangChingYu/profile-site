@@ -14,6 +14,8 @@
     margin-left: 20px;
     cursor: default;
     justify-content: center;
+    height: 110px;
+    overflow-y: scroll;
 }
 
 .background_items {
@@ -40,8 +42,8 @@
 .background_item_bar {
     margin-left: 20px;
     height: 40px;
-    max-width: 500px;
-    width: 90%;
+    min-width: 80%;
+    width: calc(14vw + 300px);
     background: linear-gradient(90deg, var(--color-blue-dark), var(--color-secondary));
     border-radius: 20px;
 }
