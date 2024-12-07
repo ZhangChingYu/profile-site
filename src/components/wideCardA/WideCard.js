@@ -3,6 +3,28 @@ import "./wideCardA.css";
 import image from "../../assets/avatar2.jpeg";
 
 const WideCard = () => {
+    const circleStyles = [
+        {
+            color: "var(--color-secondary)",
+            anim: "animation1 2s infinite",
+        },
+        {
+            color: "#5E5B61",
+            anim: "animation1 2s infinite",
+        },
+        {
+            color: "#858181",
+            anim: "animation1 2s infinite",
+        },
+        {
+            color: "##ADA8A2",
+            anim: "animation1 2s infinite",
+        },
+        {
+            color: "#D4CEC2",
+            anim: "animation1 2s infinite",
+        },
+    ]
     const colors = ["var(--color-secondary)", "#5E5B61", "#858181", "#ADA8A2", "#D4CEC2"]
     return(
         <div className="wide_card_A">
@@ -14,8 +36,15 @@ const WideCard = () => {
                     <div className="wide_card_header">
                         <p className="wide_card_title">Silvia Chang</p>
                         <div className="wide_card_circles">
-                            {colors.map((item, id) => (
-                                <div key={"wide_card_circle_"+id} className={"wide_card_circle"} style={{left:`${(4-id)*20}px`, background:`linear-gradient(90deg, ${item}, ${id+1===5?"var(--color-yellow)":colors[id+1]})`}}></div>
+                            {circleStyles.map((item, id) => (
+                                <div 
+                                key={"wide_card_circle_"+id} 
+                                className={"wide_card_circle"} 
+                                style={{
+                                    left:`${(4-id)*20}px`, 
+                                    background:`linear-gradient(90deg, ${item.color}, ${id+1===5?"var(--color-yellow)":circleStyles[id+1].color})`,
+                                    animation: item.anim
+                                }}></div>
                             ))}
                         </div>
                     </div>

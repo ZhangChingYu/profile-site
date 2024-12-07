@@ -22,7 +22,103 @@
     width: 40px;
     height: 40px;
     border: 1px solid;
-    border-radius: 20px;
+    border-radius: 40px;
     margin: 10px 0;
-    background-color: var(--color-transparent)
+    background-color: var(--color-transparent);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar_item img {
+    height: 80%;
+    background-color: var(--color-transparent);
+}
+
+.sidebar_item_lines {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: var(--color-transparent);
+}
+
+.sidebar_item_lines div {
+    margin: 4px 0;
+    height: 4px;
+    width: 60px;
+}
+
+@keyframes rotate20Animation {
+    0% {
+      transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
+@keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes flipAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes D3Animation {
+    0% {
+        perspective: 500px;
+        transform: rotateY(0deg);
+    }
+    50% {
+        perspective: 500px;
+        transform: rotateY(180deg);
+    }
+    100% {
+        perspective: 500px;
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes quickSpinAnimation {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scaleAnimation {
+    0% {
+        scale: 1;
+    }
+    25% {
+        scale: 0.8;
+        transform: translate(10px, 4px);
+    }
+    50% {
+        transform: translate(-6px, -4px);
+    }
+    100% {
+        scale: 1;
+    }
 }

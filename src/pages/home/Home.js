@@ -5,7 +5,6 @@ import { Header, Sidebar, Profile, About, WideCardA, WideCardB, Background, Elem
 const Home = () => {
     return(
         <div className="home">
-            
             <div className="home_body">
                 <Header />
                 <div className="home_body_">
