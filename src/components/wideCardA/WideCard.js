@@ -25,7 +25,6 @@ const WideCard = () => {
             anim: "animation1 2s infinite",
         },
     ]
-    const colors = ["var(--color-secondary)", "#5E5B61", "#858181", "#ADA8A2", "#D4CEC2"]
     return(
         <div className="wide_card_A">
             <div className="wide_card_container">
