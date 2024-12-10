@@ -40,10 +40,10 @@ const Sidebar = () => {
             ))}
             <div className="sidebar_item_lines">
                 {Array.from({length:16}).map((item, id) => (
-                    <div id={"sidebar_item_line_"+id} style={{opacity:(16-id)/16, background:"var(--color-yellow)"}}></div>
+                    <div key={"sidebar_item_line_"+id} style={{opacity:(16-id)/16, background:"var(--color-yellow)"}}></div>
                 ))}
                 {Array.from({length:8}).map((item, id) => (
-                    <div id={"sidebar_item_line_"+id} style={{opacity:(id+1)/8, background:"var(--color-red)"}}></div>
+                    <div key={"sidebar_item_line_"+id} style={{opacity:(id+1)/8, background:"var(--color-red)"}}></div>
                 ))}
             </div>
         </div>
